@@ -14,3 +14,10 @@ Then, to run the container, use the docker run command.
 docker run -p 5000:8080 container_id
 ```
 This will run the container, and will forward its virtual port (8080, in this case), to the port 5000 of our local machine, so that we can actually access it.
+
+To kill The process (running container), use the docker stop command.
+```
+docker stop container_id
+```
+
+Moreover, you can use the docker ps command to list the running containers, and additional info about them, ps meaning `process status`.
